@@ -1,0 +1,8 @@
+This directory contains the source code for Steve Walstra's
+implementation of RPAL.
+
+To compile the code, simply type 'make'.
+
+The 'run_tests' shell script runs all the test programs in
+the 'tests' directory.  Edit the 'run_tests' file to choose
+among the various available options.
