@@ -1,0 +1,37 @@
+#@Garg, Vineet
+
+DIRECTORY STRUCTURE
+-This directory contain following files
+	*token.h
+	*token.cc
+	*parser.h
+	*parser.cc
+	*p1.cc
+	*makefile
+	*difftest.pl
+
+- This directory contain followingn directories:
+	*BUGS - It lists all the bugs
+
+NOTE - Output format of defns.1 differs which fails the test case otherwise the result is same
+
+COMPILATION
+	- Run make or make all to compile the code
+
+TESTING
+	-Run make test to test all the cases. I just copied the line from project website. So I am assuming all the directories will be at 
+	same path as listed in project website. Otherwise please change the test in makefile
+
+	- On local system I tested code using testing(It will not work on any other system)
+
+CLEAN
+	-cl target will remove the pl executable file
+
+EXECUTING PROJECT
+	- To execute project type " ./pl [flag] [filename] ". [flag] is optional. This is the only acceptable format. Otherwise the project will fail to run.
+
+FLAGS
+	-[-ast] - This will print the Abstract Syntax Tree of given file on standart output
+	-[-debug] - Using this flag will make project to output all debug information on standard output. This helps in debugging in case there is any bug
+	-[-verbose] - This flag will make project to output the LOGS including debugging information on standard output.
+	-without any flag - This flag will produce only result
